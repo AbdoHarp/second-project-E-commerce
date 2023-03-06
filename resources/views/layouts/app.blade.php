@@ -38,9 +38,8 @@
         </main>
     </div>
     {{--  owl --}}
-    {{-- <script href="{{ asset('assets/js/owl.carousel.min.js') }}"></script> --}}
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{{ asset('assets/js/cusstom.js') }}"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{{ asset('assets/js/owl.carousel.js') }}"></script>
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
