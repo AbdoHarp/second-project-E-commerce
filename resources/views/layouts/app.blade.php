@@ -19,7 +19,7 @@
     <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
     {{-- google font  --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    {{-- <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet"> --}}
     {{-- bootstrapcdn fontawesome --}}
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
@@ -38,11 +38,11 @@
         </main>
     </div>
     {{--  owl --}}
-    <script src="{{ asset('assets/js/cusstom.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/cusstom.js') }}"></script> --}}
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="{{ asset('assets/js/owl.carousel.js') }}"></script>
     <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> --}}
     <script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}"></script>
     @yield('script')
 
